@@ -320,7 +320,7 @@ spec:
     spec:
       containers:
       - name: trader
-        image: bluedemocluster.icp:8500/default/trader:latest
+        image: @registryHostAndRepo@/trader:latest
         ports:
           - containerPort: 9080
         imagePullPolicy: IfNotPresent
